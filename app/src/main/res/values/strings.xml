@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JWT Test</string>
+    <string name="action_settings">settings</string>
+
+    <string name="fragment_jwt">RUN JWT FRAGMENT</string>
+    <string name="fragment_auth">RUN AUTH FRAGMENT</string>
+    <string name="generate_jwt_git">Generate (JWT) ::  Github Code</string>
+    <string name="generate_jwt_storm">Generate (JWT) ::  stormpath.com Code</string>
+    <string name="service_call">Hit Login Service</string>
+    <string name="response">Response : </string>
+    <string name="clear_response">Clear Response</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

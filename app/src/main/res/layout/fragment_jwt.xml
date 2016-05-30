@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView android:text="@string/fragment_jwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/text_clear_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_response"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <Button
+        android:id="@+id/button_generate_jwt_github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_jwt_git"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/button_generate_jwt_stormpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_jwt_storm"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/text_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:editable="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/response" />
+
+</LinearLayout>
+
+</ScrollView>
