@@ -7,6 +7,8 @@ import com.auth0.lock.LockProvider;
 
 /**
  * Created by Android on 5/27/2016.
+ * 
+ * I really don't know why this is being used , wrote on Github
  */
 public class JwtTestApplication extends Application implements LockProvider {
 
@@ -24,5 +26,6 @@ public class JwtTestApplication extends Application implements LockProvider {
     @Override
     public Lock getLock() {
         return lock;
+        // Commenting this line to review changes in pul request/ commnd of git
     }
 }
